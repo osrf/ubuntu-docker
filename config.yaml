@@ -1,0 +1,22 @@
+username:
+    osrf
+build_core:
+    true
+push_core:
+    false
+build_image:
+    true
+push_image:
+    false
+dry:
+    false
+architectures:
+    i386:
+        suites:
+            - trusty
+    armhf:
+        suites:
+            - trusty
+    arm64:
+        suites:
+            - trusty
